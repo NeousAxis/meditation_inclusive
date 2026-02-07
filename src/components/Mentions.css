@@ -1,0 +1,62 @@
+.mentions-section {
+    padding: 8rem 0 6rem;
+    /* Top padding to account for fixed header if any, or just space */
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    min-height: 80vh;
+}
+
+.mentions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.mentions-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    margin-bottom: 3rem;
+    color: var(--text-heading);
+    text-align: center;
+}
+
+.mentions-block {
+    margin-bottom: 2.5rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #e2e8f0;
+}
+
+.mentions-subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--accent-primary);
+    /* Gold */
+    font-family: var(--font-heading);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.mentions-text {
+    line-height: 1.8;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.back-link:hover {
+    color: var(--accent-primary);
+}

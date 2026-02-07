@@ -1,0 +1,72 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+    /* Slate 200 */
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-img {
+    height: 2.5rem;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: var(--text-heading);
+    display: block;
+    font-family: var(--font-heading);
+}
+
+@media (min-width: 768px) {
+    .logo-text {
+        display: block;
+    }
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: color 0.2s;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.nav-link:hover {
+    color: var(--accent-primary);
+    background-color: var(--bg-secondary);
+}
+
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+}
