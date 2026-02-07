@@ -291,7 +291,7 @@ const BookingModal = ({ isOpen, onClose, initialType }) => {
                         >
                             {bookingType === 'Cercle'
                                 ? (CERCLE_DATES.length > 0 ? "Réserver" : "S'inscrire sur liste d'attente")
-                                : "Valider & Payer"
+                                : "Valider"
                             }
                         </button>
                     </form>
