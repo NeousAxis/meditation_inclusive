@@ -39,16 +39,18 @@
 }
 
 .hero-logo-img {
-    width: 90%;
-    /* Contain it better */
+    width: 60%;
     height: auto;
-    max-height: 80vh;
+    max-height: 30vh;
     object-fit: contain;
     opacity: 1;
-    /* Full visibility */
-    transform: none;
-    /* Reset transform */
-    /* If the logo was colored, apply a filter to make it fit, but it's likely already gold based on user preference */
+}
+
+@media (min-width: 768px) {
+    .hero-logo-img {
+        width: 90%;
+        max-height: 80vh;
+    }
 }
 
 /* Right side: Content */

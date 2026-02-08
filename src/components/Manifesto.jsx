@@ -53,7 +53,7 @@ const Manifesto = () => {
                             </li>
                             <li className="list-item">
                                 <span className="dot" />
-                                <span>Éclairer les états vécus sans les hiérarchiser</span>
+                                <span>Éclairer les états vécus et les hiérarchiser correctement</span>
                             </li>
                             <li className="list-item">
                                 <span className="dot" />

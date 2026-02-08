@@ -8,8 +8,14 @@
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        padding: 0 1rem;
+    }
 }
 
 .footer-brand {

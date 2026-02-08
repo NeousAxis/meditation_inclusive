@@ -26,7 +26,7 @@ const Hero = () => {
                     className="hero-visual"
                 >
                     <img
-                        src="/logo/logo-meditation-inclusive-arriere.png"
+                        src="/logo/logo-arriere.jpg"
                         alt="Méditation Inclusive Branding"
                         className="hero-logo-img"
                     />
